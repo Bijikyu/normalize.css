@@ -1,0 +1,48 @@
+repo_name: Bijikyu/normalize.css
+report_id: 17f781e17d7f15a75a22d2b5d2c67c2f
+repo_type: Public
+timestamp: '2023-12-02T21:34:07+00:00'
+requested_by: necolas
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Aleks Hudochenkov
+  last_updated_on: 2016-02-05 21:27:19.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: test.html
+  last_updated_by: Nicolas Gallagher
+  last_updated_on: 2011-05-17 10:00:06.000000000 Z
